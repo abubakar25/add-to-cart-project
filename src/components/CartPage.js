@@ -5,7 +5,7 @@ import Items from "./Items";
 import { MyContext } from "./Cart";
 
 function CartPage(props) {
-  const item = useContext(MyContext);
+  const { item } = useContext(MyContext);
   console.log(item);
   return (
     <>
